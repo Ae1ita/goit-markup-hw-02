@@ -33,7 +33,9 @@ body {
 .site-nav-link:focus {
   color: var(--accent-color);
 }
-
+.site-nav-link:focus {
+  color: var(--accent-color);
+}
 .mailto-link {
   color: var(--primary-text-color);
 }
@@ -52,10 +54,6 @@ body {
   color: var(--primary-background-color);
 }
 /* Button */
-.button {
-  color: var(--primary-background-color);
-  background-color: var(--button-color);
-}
 .button-primary {
   color: var(--primary-background-color);
   background-color: var(--button-color);
