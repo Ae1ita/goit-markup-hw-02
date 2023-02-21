@@ -1,0 +1,94 @@
+:root {
+  --primary-text-color: #434455;
+  --title-text-color: #2e2f42;
+  --item-text-color: #2e2f42;
+  --accent-color: #404bbf;
+  --primary-background-color: #ffffff;
+  --secondary-background-color: #2e2f42;
+  --button-color: #4d5ae5;
+  --button-background-color: #f4f4fd;
+}
+body {
+  font-family: "Roboto", sans-serif;
+  font-family: "Raleway", sans-serif;
+  background-color: var(--primary-background-color);
+  color: var(--primary-text-color);
+}
+/* Header style */
+.logo {
+  color: var(--secondary-background-color);
+}
+.logo-accent {
+  color: var(--button-color);
+}
+.list {
+  list-style: none;
+}
+
+/* link color */
+.site-nav-link {
+  color: var(--title-text-color);
+}
+.site-nav-link:hover,
+.site-nav-link:focus {
+  color: var(--accent-color);
+}
+
+.mailto-link {
+  color: var(--primary-text-color);
+}
+.mailto-link:hover,
+.mailto-link:focus {
+  color: var(--accent-color);
+}
+.tel {
+  color: var(--primary-text-color);
+}
+/* Hero section */
+.hero-section {
+  background-color: var(--secondary-background-color);
+}
+.hero-title {
+  color: var(--primary-background-color);
+}
+/* Button */
+.button {
+  color: var(--primary-background-color);
+  background-color: var(--button-color);
+}
+.button-primary {
+  color: var(--primary-background-color);
+  background-color: var(--button-color);
+}
+.button-primaty:hover {
+  background-color: var(--accent-color);
+}
+.button-secondary {
+  color: var(--button-color);
+  background-color: var(--button-background-color);
+}
+.button-secondary:focus {
+  color: var(--primary-background-color);
+  background-color: var(--accent-color);
+}
+/* Section */
+
+.section-title {
+  color: var(--title-text-color);
+}
+.section-item {
+  color: var(--item-text-color);
+}
+.our-team-section {
+  background-color: var(--button-background-color);
+}
+/* Footer */
+.footer {
+  background-color: var(--secondary-background-color);
+}
+.logo-footer {
+  color: var(--button-background-color);
+}
+.footer-text {
+  color: #e7e9fc;
+}
